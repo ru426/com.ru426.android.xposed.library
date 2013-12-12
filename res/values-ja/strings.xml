@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ru_settings_title">設定</string>
+    <string name="ru_app_settings_title">アプリ 設定</string>
+    <string name="ru_app_settings_summary">アプリの設定</string>
+    
+    <string name="ru_use_light_theme_key">UseLightThemeKey</string>
+    <string name="ru_use_light_theme_title">テーマ 設定</string>
+    <string name="ru_use_light_theme_summary">ライトテーマを使用する</string>
+    
+    <string name="ru_action_plugin_theme_settings_change">com.ru426.android.xposed.intent.action.PLUGIN_THEME_SETTINGS_CHANGE</string>
+    <string name="ru_action_plugin_settings">com.ru426.android.xposed.intent.action.PLUGIN_SETTINGS</string>
+    <string name="ru_action_plugin_modules">com.ru426.android.xposed.intent.action.PLUGIN_MODULES</string>
+    
+    <string name="ru_extra_plugin_theme_settings">com.ru426.android.xposed.intent.extra.PLUGIN_THEME_SETTINGS</string>
+    
+    <string name="ru_mod_preferences_header">"ModPreferences_"</string>
+    
+    <string name="ru_targetpackagename">targetpackagename</string>
+    <string name="ru_description">description</string>
+    <string name="ru_category">category</string>
+    <string name="ru_category_systemui">systemui</string>
+    <string name="ru_category_systemui_tools">systemui_tools</string>
+    <string name="ru_category_systemui_notification">systemui_notification</string>
+    <string name="ru_category_systemui_navigation">systemui_navigation</string>
+    <string name="ru_category_lockscreen">lockscreen</string>
+    <string name="ru_category_power_button">powerbutton</string>
+    <string name="ru_category_behavior_and_etc">behavior_and_etc</string>
+    
+    <string name="ru_reset_default">デフォルトにリセット</string>
+    <string name="ru_save">保存</string>
+    <string name="ru_reset">リセット</string>
+    <string name="ru_restart_message">設定の変更は再起動後に反映されます</string>
+    <string name="ru_restart_app_message">設定の変更はアプリの再起動後に反映されます</string>
+    <string name="ru_cleared_pref_message">設定を初期化しました</string>
+
+</resources>
