@@ -67,22 +67,27 @@ public class ModuleBase {
 					boolean value = (Boolean) defValue;
 					return prefs.getBoolean(_key, value);
 				}catch(ClassCastException e){
+					xLog(e.getMessage());
 					try{
-						float value = (Float) defValue;
-						return prefs.getFloat(_key, value);
+						int value = (Integer) defValue;
+						return prefs.getInt(_key, value);
 					}catch(ClassCastException e1){
+						xLog(e1.getMessage());
 						try{
-							int value = (Integer) defValue;
-							return prefs.getInt(_key, value);
+							long value = (Long) defValue;
+							return prefs.getLong(_key, value);
 						}catch(ClassCastException e2){
+							xLog(e2.getMessage());
 							try{
-								long value = (Long) defValue;
-								return prefs.getLong(_key, value);
-							}catch(ClassCastException e3){											
+								float value = (Float) defValue;
+								return prefs.getFloat(_key, value);
+							}catch(ClassCastException e3){
+								xLog(e3.getMessage());
 								try{
 									String value = (String) defValue;
 									return prefs.getString(_key, value);
 								}catch(ClassCastException e4){
+									xLog(e4.getMessage());
 									try{
 										@SuppressWarnings("unchecked")
 										Set<String> value = (Set<String>) defValue;
